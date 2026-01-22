@@ -6,5 +6,3 @@ supabase
 mangum
 pydantic
 pypdf
-numpy
-scikit-learn
