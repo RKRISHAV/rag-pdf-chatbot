@@ -21,6 +21,6 @@ app.include_router(health_router)
 app.include_router(ingest_router)
 app.include_router(chat_router)
 
-app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")
+
 
 handler = Mangum(app)

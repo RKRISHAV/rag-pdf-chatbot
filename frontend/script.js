@@ -27,7 +27,7 @@ async function ask() {
 
   const aiSpan = document.getElementById("ai-response");
 
-  const res = await fetch("/chat", {
+  const res = await fetch("https://YOUR_BACKEND_URL/chat", {
     method: "POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify({ query })
