@@ -1,3 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+httpx
+supabase
+mangum
+pydantic
 pypdf
 numpy
 scikit-learn

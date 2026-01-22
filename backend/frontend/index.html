@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI PDF Q&A</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>PDF Q&A Assistant</h1>
+
+  <div class="upload">
+    <input type="file" id="pdfUpload" />
+    <button onclick="uploadPDF()">Upload PDF</button>
+  </div>
+
+  <div id="chat"></div>
+
+  <div class="input-row">
+    <input type="text" id="query" placeholder="Ask about the document..." />
+    <button onclick="ask()">Ask</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
